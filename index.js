@@ -10,7 +10,6 @@ app.get('/get-tweets', async (req, res) => {
 
         const response = await fetch(twitterUrl, {
             headers: {
-                // Token'ını buraya tam olarak yapıştırıyorsun
                 'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAKLK/QEAAAAA+ljEJzGN1v0JMS20ShZQcONzWeQ=3k0UDQFHk6Lg5BrY9I7VjzBda9OVL6HX6psTFz1OPYcTvtqpux'
             }
         });
